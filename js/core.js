@@ -5,6 +5,7 @@ $(function(){
 
 function closeLogin(){
         $('#login').hide();
+        // $('#closeHeader').hide()
     $('.fa-times').click(function(){
         $('#login').hide();
     })
