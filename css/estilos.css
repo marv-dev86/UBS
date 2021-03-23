@@ -8,7 +8,62 @@
 
 body{
     position: relative;
+} 
+
+/* <!-- ------------------------header--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
+
+header{
+    height: 70px;
+    background-color: #a8d7e2;
+    
 }
+
+nav{
+    margin: auto 0;
+}
+
+nav ul{
+    margin: auto 0;
+
+}
+
+nav ul li{
+    border: .2px solid white;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+    margin-right: .5rem;
+}
+
+nav ul li:hover a{
+    background-color: #0f5768;
+    color: #a8d7e2;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+nav ul li:hover{
+    background-color: #0f5768;
+    transition: all 200ms;
+}
+
+
+nav ul a{
+    color: #0f5768;
+    
+    
+}
+
+
+.logo{
+    width: 89px;
+    height: 48px;
+    /* background-color: blue; */
+}
+
+/* <!-- ------------------------ fin header--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
 
 #login{
     background-color: rgba(0, 0, 0, .5);
@@ -48,28 +103,11 @@ body{
 
 .seccion{
     height: 720px;
+    padding-top: 72px;
     /* border: 1px solid black; */
 }
 
-header{
-    height: 70px;
-    background-color: gray;
-    
-}
 
-nav{
-    margin: auto 0;
-}
-
-nav ul{
-    margin: auto 0;
-}
-
-.logo{
-    width: 89px;
-    height: 48px;
-    background-color: blue;
-}
 
 .portada{
     width: 100%;
