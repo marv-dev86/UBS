@@ -4,7 +4,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    color: #a8d7e2 ;
     /* overflow: hidden; */
+}
+
+h1{
+    color: #0f5768;
 }
 html{
     height: 100vh;
@@ -13,6 +18,14 @@ html{
 body{
     position: relative;
     height: 100%;
+    /* background-image: linear-gradient(to right bottom, #2fa395, #1ea29e, #09a0a5, #009ead, #009cb3, #0195af, #058eaa, #0b87a5, #0d7b95, #0e6f86, #0f6377, #0f5768); */
+
+    background-image: linear-gradient(to top, #8bb6c0, #65b0c5, #5dadc5, #49a8c3, #0898ba);
+
+    
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
 } 
 
@@ -21,7 +34,11 @@ body{
 
 header{
     height: 70px;
+    position: fixed;
+    z-index: 100;
     background-color: #a8d7e2;
+    opacity: .8;
+    /* background-image: linear-gradient(to to, #a8d7e2, #8bc7d7, #6cb7cd, #49a8c3, #0898ba); */
 
     
 }
@@ -72,6 +89,10 @@ nav ul a{
 /* <!-- ------------------------ fin header--------------------------------------  -->
 <!-- ---------------------------------------------------------------------- --> */
 
+
+/* <!-- ------------------------ login--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
+
 #login{
     background-color: rgba(0, 0, 0, .5);
     position: fixed;
@@ -106,16 +127,12 @@ nav ul a{
     font-size: 2rem;
 }
 
+/* <!-- ------------------------ fin login--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
 
 
-.seccion{
-    height: 720px;
-    width: 100%;
-    /* padding-top: 72px; */
-    /* border: 1px solid black; */
-}
-
-
+/* <!-- ------------------------ portada--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
 
 .portada{
     width: 100%;
@@ -127,10 +144,68 @@ nav ul a{
     object-fit: cover;
 }
 
-.card-info{
-    height: 520px ;
-    margin: auto 0;
+/* <!-- ------------------------ fin portada--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
+
+
+/* <!-- ------------------------ ABOUT US --------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
+#aboutus p{
+    font-size: 1.2rem;
 }
+
+#aboutus h1{
+    color: #0f5768;
+    
+}
+
+
+
+/* <!-- ------------------------ fin ABOUTUS--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
+
+.seccion{
+    height: 720px;
+    width: 100%;
+    overflow: auto;
+    padding-top: 72px;
+    /* border: 1px solid black; */
+}
+
+
+
+/* <!-- ------------------------ QUICK START--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
+#quickStart h1{
+    
+        color: #0f5768;
+    
+}
+
+
+
+.card-tile{
+    background-color: #2fa395;
+    border-radius: 1.5rem;
+    box-shadow: 2px 3px 8px  #0f5768;
+    border: 1px solid #0898ba;
+}
+
+.card-tile h4{
+    padding: 8px;
+    text-align: center;
+}
+
+{
+    
+}
+
+.card-tile p{
+    padding: 5px;
+}
+
+/* <!-- ------------------------ fin QUICK START--------------------------------------  -->
+<!-- ---------------------------------------------------------------------- --> */
 
 @media only screen and (max-width: 600px) {
     header nav ul li{
@@ -146,12 +221,22 @@ nav ul a{
         /* height: auto; */
     }
 
-    #quickStart .seccion{
-        height: 1080px;
+    .seccion-xs{
+        height: 1000px;
+        /* border:  red solid 2px; */
+        overflow: auto;
     }
 
-    #shipping > div{
+    #quickStart .seccion{
+        /* height: 1080px; */
+    }
+
+    .seccion-md{
         height: 1280px;
+    }
+
+    .card-tile{
+        margin-top: .5rem;
     }
    
   }
@@ -172,14 +257,19 @@ nav ul a{
     #shipping > div{
         height: 1080px;
     }
+
+    .card-tile{
+        margin-top: .8rem;
+    }
+   
 }  
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    
+/*     
         #shipping > div{
             height: 720px;
-        }
+        } */
     
 }
