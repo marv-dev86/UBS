@@ -22,15 +22,15 @@
 <body>
  <!-- ------------------------header--------------------------------------  -->
     <!-- ---------------------------------------------------------------------- -->
-    <header class="container-fluid d-flex sticky-top">
+    <header id="closeHeader" class="container-fluid d-flex ">
         <nav class=" container d-flex w-100 justify-content-between ">
             <div class="logo text-center">
-                    logo
+                    <img src="imgs/logo/UTZ-Box-05.png" width="100%" alt="">
             </div>
             <ul class="d-flex">
-                <li class="p-1" > <a href="#quickStart">Quick start</a></li>
-                <li class="p-1" > <a href="#shipping">Shipping</a></li>
-                <li class="p-1" > <a href="#aboutus">About Us</a></li>
+                <li class="p-1" > <a href="#quickStart"  >Quick start</a></li>
+                <li class="p-1" > <a href="#shipping" > Shipping</a></li>
+                <li class="p-1" > <a href="#aboutus" >About Us</a></li>
                 <li class="p-1" > <a href="#" id="openLogin">Log in/Sign Up</a></li>
             </ul>
         </nav>
@@ -39,10 +39,10 @@
     <!-- ------------------------portada--------------------------------------  -->
     <!-- ---------------------------------------------------------------------- -->
 
-<div class="seccion ">     
+<div class="seccion-portada ">     
     
-    <div class="portada">
-        <img src="imgs/carrousel/portada.png" width="100%" height="100%" alt="">
+    <div >
+        <img src="imgs/carrousel/portada.png" class="img-fluid"  width="100%" alt="">
 
     </div>   
 </div>
@@ -88,14 +88,14 @@
 <!-- ---------------------------------------------------------------------------------------------- -->
 
 <div id="aboutus">
-    <div class="seccion">
-        <h1 class="text-center p-3">Who we are</h1>
+    <div class="seccion container-fluid ">
+        <h1 class="text-center p-2 ">Who we are</h1>
         <div class="container h-75 d-flex align-items-center">
             <div class="row d-flex align-items-center">
-                <div class="col-4">
+                <div class="col-12 col-lg-3 col-xl-4">
                     <img src="imgs/logo/UTZ-Box-01.png" width="100%" alt="">
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-lg-9 col-xl-8">
                     <p class="text-justify">
                         UTZ BOX is the most efficient and innovative
                         company of national and international
@@ -114,12 +114,12 @@
 
     </div>
 
-    <div class="seccion">
-        <h1 class="text-center">Our Mission</h1>
+    <div class="seccion container-fluid">
+        <h1 class="text-center ">Our Mission</h1>
 
         <div class="container h-75 d-flex align-items-center">
             <div class="row d-flex align-items-center">
-                <div class="col-8">
+                <div class="col-12 col-md-6 col-lg-8 col-xl-8">
                     <p class="text-justify">
                         Make your life easier. We will expedite
                     your logistical processes and provide you with the best service and prices in the market. Keeping always in mind that your customer is the most important thing to
@@ -127,8 +127,8 @@
                     </p>
                 </div>
 
-                <div class="col-4">
-                    <img src="imgs/carrousel/misionUTZ.png" class="rounded" width="100%" alt="">
+                <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                    <img src="imgs/carrousel/misionUTZ.png" class="rounded" width="100%"  alt="">
                 </div>
             </div>
 
@@ -143,32 +143,49 @@
 <!-- ------------------------seccion quick start--------------------------------------------------  -->
 <!-- ---------------------------------------------------------------------------------------------- -->
 <div id="quickStart">
-    <div class="seccion" >
-        <h1 class="text-center p-2"> Getting Started with UTZ Box</h1>
+    <div class="seccion container-fluid d-flex align-lg-items-center " >
+        
     
-        <div class="card-info container d-flex align-items-center">
-            <div class="d-flex">
-                <div class="card-tile p-2 border border-2 border-primary">
+        <div class="card-info container d-flex flex-column align-items-center justify-xl-content-center">
+
+            <h1 class="text-center p-2"> Getting Started with UTZ Box</h1>
+            <div class="row">
+                <div class="card-tile p-2  col-12 col-md-6  col-lg-6 col-xl-4">
                     <h4>I ship Personal Items</h4>
                     <p class="text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas molestiae ullam? Voluptates sit quidem sint, sunt vero corrupti quibusdam praesentium quisquam voluptatum cum nesciunt tenetur facilis sequi perferendis repudiandae.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa molestiae iste quae perspiciatis saepe veritatis perferendis aliquam voluptatem! Minus ipsa tempore labore ut eius rerum nisi eos ratione eligendi.
+                        
+                                Perhaps you want to downsize your luggage or ship out your
+                                purchases?
+                                This service helps you accelerate the dispatch of your packages,
+                                or schedule a delivery for when you’re going to be home. This
+                                service will make sure you get your things on time.
     
                     </p>
                 </div>
-                <div class="card-tile p-2 d-flex flex-column justify-content-center">
+                <div class="card-tile p-2 d-flex flex-column justify-content-center col-12  col-md-6 col-lg-6 col-xl-4">
                     <h4>I ship Frequently</h4>
                     <p class="text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas molestiae ullam? Voluptates sit quidem sint, sunt vero corrupti quibusdam praesentium quisquam voluptatum cum nesciunt tenetur facilis sequi perferendis repudiandae.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa molestiae iste quae perspiciatis saepe veritatis perferendis aliquam voluptatem! Minus ipsa tempore labore ut eius rerum nisi eos ratione eligendi.
+                        
+                        Has it been difficult for you to find a comfortable price to
+                        send something outside of Guatemala?
+                        This service is for you!
+                        Our E commerce services ensure you always get the best
+                        rates selected from our suppliers rates. Based on your
+                        volume and frequency you can access different discounts
+                        that adjust to your shipping demands.
     
                     </p>
                 </div>
-                <div class="card-tile p-2 d-flex flex-column justify-content-center">
+                <div class="card-tile p-2 d-flex flex-column justify-content-center col-12  col-md-12 col-lg-12 col-xl-4">
                     <h4>I ship Over 32Kg</h4>
                     <p class="text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas molestiae ullam? Voluptates sit quidem sint, sunt vero corrupti quibusdam praesentium quisquam voluptatum cum nesciunt tenetur facilis sequi perferendis repudiandae.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa molestiae iste quae perspiciatis saepe veritatis perferendis aliquam voluptatem! Minus ipsa tempore labore ut eius rerum nisi eos ratione eligendi.
+                        You are going to love this new service!
+                        At UTZ BOX we are constantly searching for new ways to
+                        increase our service options for you, and that is why we are now
+                        introducting this new service! Now all shipments over 32kg
+                        addressed to the United States have a new price-sheet that will
+                        help you reduce costs while maintaining your delivery and
+                        service standards in both quality and time.
     
                     </p>
                 </div>
@@ -177,7 +194,7 @@
         </div>
     </div>
     
-    <div class="seccion">
+    <div class="seccion container-fluid">
         <h1 class="text-center p-3">Where can I send my packages and how long will it take</h1>
     
     <div class="container">
@@ -241,24 +258,34 @@
     
     </div>
     
-    <div class="seccion"> 
-        <div class="container h-100">
+    <div class="seccion container-fluid d-flex align-items-center"> 
+        <div class="container">
             <h1 class="text-center p-2">How do I make my products reach UTZ Box</h1>
     
-            <div class="d-flex  h-75 align-items-center">
-                <div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                     <p>
                         <h3>Drop Off</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur quia odit! Molestiae saepe repellendus sint, obcaecati error veniam officiis culpa aliquid voluptatem nobis alias autem hic illum recusandae corrupti.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, magni ex beatae perspiciatis molestias quos voluptas similique nemo iure nisi quia eveniet, voluptates et nulla odio obcaecati, atque velit adipisci.
+                        You can come drop off your package at our office
+                        located at:
+                        <address> 9na Calle Poniente # 17
+                        Residencial El Rosario House 7A
+                        Antigua Guatemala, Sacatepequez</address>
     
                     </p>
                 </div>
-                <div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                     <p>
                         <h3>Pick-up</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consectetur quia odit! Molestiae saepe repellendus sint, obcaecati error veniam officiis culpa aliquid voluptatem nobis alias autem hic illum recusandae corrupti.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, magni ex beatae perspiciatis molestias quos voluptas similique nemo iure nisi quia eveniet, voluptates et nulla odio obcaecati, atque velit adipisci.
+                        You can request a Pick-Up at:
+                        box@utz.gt or call 7832-0766
+                        Each pick-up has a cost according to its distance, and it
+                        will be included in your final invoice.
+                        <!-- Packages within Antigua Perimeter .....................................$3 - $6.50
+                        Packages 1-30 pounds (standard regions) .................................$6.50
+                        Packages 1-30 pounds (Far-off regions) ....................................$8.50
+                        Extra pound after 30 pounds (per pound) .................................$0.25 -->
+
     
                     </p>
                 </div>
@@ -277,7 +304,7 @@
         <h1 class="text-center p-2"> How Much does it Cost?</h1>
         <div id="cotizador" class="container">
             <div class="row">
-                <div class="col-12 col-xl-4">
+                <div class="col-6 col-md-6 col-lg-6 col-xl-4">
                     <h5>Ship From</h5>
                     <label for="country" class="form-label">Country</label>
                     <select name="country-from" id="country-from" class="custom-select">
@@ -321,7 +348,7 @@
                     <input id="village-from" type="text" class="form-control">
 
                 </div>
-                <div class="col-12 col-xl-4">
+                <div class="col-6 col-md-6 col-lg-6 col-xl-4">
                     <h5>Ship To</h5>
                     <label for="country-to">Country</label>
                     <select name="country-to" id="country-to" class="custom-select">
@@ -347,7 +374,7 @@
 
 
                 </div>
-                <div class="col-12 col-xl-4">
+                <div class="mt-2 col-12 col-md-6 col-lg-6 col-xl-4">
                     <h5>Package</h5>
                     <label for="weight">Weight</label>
                     <input type="text" name="weight" id="weight" class="form-control">
@@ -368,15 +395,15 @@
             <h5 class="text-center mt-5">Send Me the Price </h5>
             <div class="row">
                 
-                <div class="col-12 col-xl-4">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
                     <label for="email">Email</label>
                     <input type="text" class="form-control" id="email">
                 </div>
-                <div class="col-12 col-xl-4">
+                <div class="col-12 col-md-4 col-lg-4  col-xl-4">
                     <label for="Whatsapp">Whatsapp</label>
                     <input type="text" class="form-control" id="whatsapp">
                 </div>
-                <div class="col-12 col-xl-4">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
                     <label for="name">Name y Surename</label>
                     <input type="text" class="form-control" id="name">
                 </div>
@@ -402,21 +429,32 @@
     <div class="seccion">
         <h1 class="text-center p-3">It is important to know that there are 3 weights to your package.</h1>
 
-        <div class="h-75 container d-flex align-items-center">
-            <div class="p-2">
-                <h3>Real</h3>
-                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, doloribus repudiandae non nemo maiores ducimus, magnam reiciendis adipisci, nam delectus et rem! At nihil est nesciunt laudantium ducimus nulla explicabo.
-                Possimus impedit ullam illo, atque molestiae et quos quidem natus laudantium delectus, pariatur illum corrupti omnis vero sequi perferendis optio tempora dignissimos minus? Ullam, aut dicta omnis aperiam pariatur fugit.</p>
-            </div>
-            <div class="p-2">
-                <h3>Volumetric</h3>
-                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, doloribus repudiandae non nemo maiores ducimus, magnam reiciendis adipisci, nam delectus et rem! At nihil est nesciunt laudantium ducimus nulla explicabo.
-                Possimus impedit ullam illo, atque molestiae et quos quidem natus laudantium delectus, pariatur illum corrupti omnis vero sequi perferendis optio tempora dignissimos minus? Ullam, aut dicta omnis aperiam pariatur fugit.</p>
-            </div>
-            <div class="p-2">
-                <h3> Billable</h3>
-                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, doloribus repudiandae non nemo maiores ducimus, magnam reiciendis adipisci, nam delectus et rem! At nihil est nesciunt laudantium ducimus nulla explicabo.
-                Possimus impedit ullam illo, atque molestiae et quos quidem natus laudantium delectus, pariatur illum corrupti omnis vero sequi perferendis optio tempora dignissimos minus? Ullam, aut dicta omnis aperiam pariatur fugit.</p>
+        <div class="h-75 container">
+            <div class="row h-100 d-flex align-items-around">
+                <div class="p-2 col-12 col-md-6 col-lg-6 col-xl-6">
+                    <h3>Real Weight</h3>
+                    <p class="text-justify">Real weight is the one obtained through
+                        normal scales. It is necessary that you use
+                        a scale with a minimum error margin and
+                        that you make sure the weight is in
+                        Kilograms.
+                        .</p>
+                </div>
+                <div class="p-2 col-12 col-md-6 col-lg-6 col-xl-6">
+                    <h3>Volumetric Weight</h3>
+                    <p class="text-justify">Volumetric weight is based on the
+                        box's dimensions in which your
+                        product is in. It is an international
+                        standardized formula. Make sure
+                        that the dimensions you are using
+                        (Length, Width, Height) are in
+                        centimeters.</p>
+                </div>
+                <div class="p-2 col-12 col-md-12 col-lg-12 col-xl-12">
+                    <h3> Billable Weight</h3>
+                    <p class="text-justify">The billable weight is obtained from the prior 2 weights, the highest of
+                        them will be the weight that will be used to set your rate.</p>
+                </div>
             </div>
         </div>
 
