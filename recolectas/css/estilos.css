@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #A8D7E2;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100%;
+}
+
+/* body{
+    background-image: url(../img/1.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+/* ---------------------------------encabezado------------------------------------  */
+/* -- ------------------------------------------ ---------------------------------- */
+
+header{
+    height: 15%;
+    background-color:#A8D7E2;
+    opacity: .8;
+}
+
+.logo{
+    width: 10%;
+    height: 80%;
+    /* background-color: aqua; */
+    opacity: .5;
+    background-image: url(../img/UTZ-Box-09.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+.main{
+    height: 5%;
+    background-color:#0F5768;
+    /* opacity: .5; */
+}
+
+/* ---------------------------------side menu------------------------------------  */
+/* -- ------------------------------------------ ---------------------------------- */
+
+main{
+    height: 80%;
+}
+
+#menu{
+    width: 10%;
+    background-color: #0F5768;
+}
+
+#ninjaMenu, #ninjaSubMenu, #userMenu{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    /* text-align: center; */
+    padding-top: 20%;
+    /* padding-left: .5rem; */
+    /* border: 1px solid red; */
+
+
+}
+
+li{
+    padding-left: .5rem;
+    font-size: 1.3vw;
+    border-bottom: #87CCCA solid 1px;
+}
+
+#ninjaSubMenu{
+   display: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #A8D7E2;
+}
+/* ul li a:hover{
+    color:#0F5768;
+    transform: scale(1.2);
+} */
+
+ul li:hover{
+    background-color:#A8D7E2;
+    /* border:white 1px solid; */
+}
+
+ul li:hover a {
+    color:#0F5768;
+    transform: scale(1.2);
+}
+
+/* a:hover li{
+    background-color: #0F5768;
+} */
+
+/* #ninjaMenu li{
+    width: 100%;
+} */
